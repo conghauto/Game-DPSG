@@ -1,12 +1,19 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Game_Ping_Pong.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  dxgraphics.cpp
-  dxinput.cpp
-  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (BTVN1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   game.cpp
   C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  main.cpp
-  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-D:\Visual 2017\Game_Ping_Pong\Game_Ping_Pong\Game_Ping_Pong\main.cpp(9,1): warning C4005:  'APPTITLE': macro redefinition
-  Generating Code...
-D:\Visual 2017\Game_Ping_Pong\Game_Ping_Pong\Game_Ping_Pong\game.h(16): message :  see previous definition of 'APPTITLE'
-  Game_Ping_Pong.vcxproj -> D:\Visual 2017\Game_Ping_Pong\Game_Ping_Pong\Debug\BTVN1.exe
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.h(52,3): warning C4091:  'typedef ': ignored on left of 'SPRITE' when no variable is declared
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(33,32): warning C4244:  'argument': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(33,26): warning C4244:  'argument': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(35,31): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(36,31): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(170,41): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(171,41): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(196,41): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(197,41): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(216,25): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(217,25): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(292,25): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(293,25): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(297,28): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(307,28): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+  Game_Ping_Pong.vcxproj -> D:\GitHub\Game-DPSG\Game_Ping_Pong\Debug\Game_Ping_Pong.exe

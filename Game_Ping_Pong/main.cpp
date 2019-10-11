@@ -6,9 +6,11 @@
 #include "game.h"
 #include "dxgraphics.h"
 
-#define APPTITLE "BTVN1"
+#define APPTITLE "Ping Pong"
 #define KEY_DOWN(vk_code) ((GetAsyncKeyState(vk_code) & 0x8000) ? 1 : 0)
 #define KEY_UP(vk_code)((GetAsyncKeyState(vk_code) & 0x8000) ? 1 : 0)
+#define SCREEN_WIDTH 480
+#define SCREEN_HEIGHT 500
 
 LRESULT WINAPI WinProc(HWND, UINT, WPARAM, LPARAM);
 ATOM MyRegisterClass(HINSTANCE);

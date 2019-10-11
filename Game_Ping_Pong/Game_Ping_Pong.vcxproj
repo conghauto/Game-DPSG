@@ -23,7 +23,6 @@
     <ProjectGuid>{8E849293-6155-4482-907E-1078ACAB567F}</ProjectGuid>
     <RootNamespace>GamePingPong</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>BTVN1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
