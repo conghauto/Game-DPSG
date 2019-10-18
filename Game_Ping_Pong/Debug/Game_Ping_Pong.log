@@ -6,14 +6,16 @@ D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(33,32): warning C4244:  'argument': 
 D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(33,26): warning C4244:  'argument': conversion from 'float' to 'int', possible loss of data
 D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(35,31): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
 D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(36,31): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(170,41): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(171,41): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(196,41): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(197,41): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(216,25): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(217,25): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(292,25): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(293,25): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(297,28): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(307,28): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(179,42): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(180,42): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(217,41): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(218,41): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(243,41): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(244,41): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(263,25): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(264,25): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(339,25): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(340,25): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(344,28): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-DPSG\Game_Ping_Pong\game.cpp(354,28): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
   Game_Ping_Pong.vcxproj -> D:\GitHub\Game-DPSG\Game_Ping_Pong\Debug\Game_Ping_Pong.exe

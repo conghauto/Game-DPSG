@@ -16,9 +16,9 @@ D3DXIMAGE_INFO info;
 long start = GetTickCount();
 HRESULT result;
 
-SPRITE edgeTop(0, 0, SCREEN_WIDTH, 10);
-SPRITE edgeBottom(0, SCREEN_HEIGHT - 10, SCREEN_WIDTH, 10);
-SPRITE edgeLeft(0, 0, 0, SCREEN_HEIGHT);
+SPRITE edgeTop(0, 0, SCREEN_WIDTH, 0);
+SPRITE edgeBottom(0, SCREEN_HEIGHT, SCREEN_WIDTH, 0);
+SPRITE edgeLeft(-10, 0, 10, SCREEN_HEIGHT);
 SPRITE edgeRight(SCREEN_WIDTH, 0, 0, SCREEN_HEIGHT);
 SPRITE edgeArr[4] = { edgeTop, edgeBottom, edgeLeft, edgeRight };
 
@@ -147,18 +147,65 @@ float SweptAABB(SPRITE b1, SPRITE b2, float& normalx, float& normaly)
 void MoveBall()
 {
 	SPRITE broadphasebox = GetSweptBroadphaseSprite(rectB);
+	
 	bool isFindSomethingToCollision = false;
 
+	for (int i = 0; i < 4; i++)
+	{
+		if (AABBCheck(broadphasebox, edgeArr[i]))
+		{
+
+			isFindSomethingToCollision = true;
+
+			if (i == 2||i == 3) {
+				// va cham voi edgeLeft --> player thua --> them diem cho CPU
+				
+				MessageBox(NULL, "Game Over",
+					"Account Details", MB_OK);
+				exit(0);
+				break;
+			}
+			else if (i == 0 || i == 1) {
+				// va cham voi edgeRight --> CPU thua --> them diem cho Player
+				
+				rectB.movex = rectB.movex;
+				rectB.movey = -rectB.movey;
+			}
+
+
+			float normalx, normaly;
+
+			float collisiontime = SweptAABB(rectB, edgeArr[i], normalx, normaly);
+			rectB.x += rectB.movex * collisiontime;
+			rectB.y += rectB.movey * collisiontime;
+
+			float remainingtime = 1.0f - collisiontime;
+
+			if (collisiontime != 1.0f)
+			{
+			
+				//phan xa
+				remainingtime = 1.0f;  // tuc la da giam 0.0 luc so voi ban dau
+				rectB.movex *= remainingtime;
+				rectB.movey *= remainingtime;
+
+				if (std::abs(normalx) > 0.0001f)
+					rectB.movex = -rectB.movex;
+				if (std::abs(normaly) > 0.0001f)
+					rectB.movey = -rectB.movey;
+			}
+		}
+	}
 	//xet va cham voi man hinh
 	
-	if (rectB.x > SCREEN_WIDTH || rectB.x < 0)
+	/*if (rectB.x > SCREEN_WIDTH || rectB.x < 0)
 	{
 		MessageBox(NULL, "Game Over",
 			"Account Details", MB_OK);
 		exit(0);
 	}
 	if (rectB.y > SCREEN_HEIGHT - rectB.height-10 || rectB.y - rectB.width < 0)
-		rectB.movey *= -1;
+		rectB.movey *= -1;*/
 	// xet xem co kha nang va cham voi spritesurface1 khong
 	if (AABBCheck(broadphasebox, rect1))
 	{
@@ -247,8 +294,8 @@ int Game_Init(HWND hwnd)
 	rectB.y = 100;
 	rectB.width = 30;
 	rectB.height = 30;
-	rectB.movex = 2;
-	rectB.movey = 2;
+	rectB.movex = 2.5f;
+	rectB.movey = 2.5f;
 	char a[20] = "char1.jpg";
 	paddle_image = LoadTexture(a, D3DCOLOR_XRGB(255, 0, 255));
 	if (paddle_image == NULL)
