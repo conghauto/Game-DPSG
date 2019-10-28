@@ -1,0 +1,85 @@
+﻿  Source.cpp
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Zombie.h(11,39): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Captain.h(90,36): warning C4244:  'return': conversion from 'float' to 'int', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Captain.h(91,36): warning C4244:  'return': conversion from 'float' to 'int', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Soldier.h(12,40): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\BossOne.h(11,40): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(301,1): warning C4005:  'BALLBEGIN': macro redefinition
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\define.h(298): message :  see previous definition of 'BALLBEGIN'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\BulletBegin.h(12,40): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(210,18): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(217,19): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1331,20): warning C4018:  '<': signed/unsigned mismatch
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1343,21): warning C4018:  '<': signed/unsigned mismatch
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1349,21): warning C4018:  '<': signed/unsigned mismatch
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1372,45): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1386,45): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1407,45): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1421,45): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1444,45): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1458,45): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1477,45): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1491,45): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1516,46): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1530,46): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1551,46): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1565,46): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1588,46): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1602,46): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1621,46): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1635,46): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1659,43): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1673,43): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1694,43): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1708,43): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1723,20): warning C4018:  '<': signed/unsigned mismatch
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1734,27): warning C4305:  'argument': truncation from 'double' to 'float'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1737,15): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1775,27): warning C4305:  'argument': truncation from 'double' to 'float'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1778,15): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1819,27): warning C4305:  'argument': truncation from 'double' to 'float'
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1830,16): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1886,20): warning C4018:  '<': signed/unsigned mismatch
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1898,43): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1909,43): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1910,43): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1916,43): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1925,43): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1926,43): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1964,49): warning C4244:  '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1995,55): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1995,32): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Source.cpp(1996,21): warning C4018:  '<': signed/unsigned mismatch
+  Game_Captain_America.vcxproj -> D:\game\Game_Aladdin\Game_Aladdin\Game_Captain_America\Debug\Game_Captain_America.exe
